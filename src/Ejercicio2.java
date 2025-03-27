@@ -10,5 +10,7 @@ public class Ejercicio2 {
         int num2 = leer.nextInt();
 
         System.out.println("Resultado de la suma: " + (num1 + num2));
+
+        leer.close();
     }
 }

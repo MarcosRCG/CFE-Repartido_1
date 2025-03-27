@@ -9,5 +9,6 @@ public class Ejercicio1 {
 
         System.out.println("Bienvenido al sistema " + nombre);
 
+        leer.close();
     }
 }
