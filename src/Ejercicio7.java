@@ -15,9 +15,7 @@ public class Ejercicio7 {
         System.out.println("Ingrese su ciudad:");
         String ciudad = leer.nextLine();
 
-        //Probando la creación de un objeto de la clase String manualmente.
-        String mensaje = new String("Hola " + nombre + ", tenés " + edad + " años y vivís en " + ciudad + ".");
-        System.out.println(mensaje);
+        System.out.println("Hola " + nombre + ", tenés " + edad + " años y vivís en " + ciudad + ".");
 
         leer.close();
     }
